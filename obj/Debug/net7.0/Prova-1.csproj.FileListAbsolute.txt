@@ -1,0 +1,15 @@
+C:\Users\Facu\Prova-1\bin\Debug\net7.0\Prova-1.exe
+C:\Users\Facu\Prova-1\bin\Debug\net7.0\Prova-1.deps.json
+C:\Users\Facu\Prova-1\bin\Debug\net7.0\Prova-1.runtimeconfig.json
+C:\Users\Facu\Prova-1\bin\Debug\net7.0\Prova-1.dll
+C:\Users\Facu\Prova-1\bin\Debug\net7.0\Prova-1.pdb
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\Prova-1.csproj.AssemblyReference.cache
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\Prova-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\Prova-1.AssemblyInfoInputs.cache
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\Prova-1.AssemblyInfo.cs
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\Prova-1.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\Prova-1.dll
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\refint\Prova-1.dll
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\Prova-1.pdb
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\Prova-1.genruntimeconfig.cache
+C:\Users\Facu\Prova-1\obj\Debug\net7.0\ref\Prova-1.dll
