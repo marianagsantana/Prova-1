@@ -13,19 +13,19 @@ namespace Prova1
 
             try
             {
-                var filePath = "arquivo.txt"; // arquivo.txt
+                String filePath = "arquivo.txt"; 
 
-                var lines = File.ReadAllLines(filePath); // lê todas as linhas do arquivo
-                var arrayDesordenado = new int[lines.Length]; // cria um array com o tamanho do arquivo
-                var setOrdenado = new SortedSet<int>(); // cria uma collection ordenada
+                string[] lines = File.ReadAllLines(filePath); // lê o arquivo
+                int[] arrayDesordenado = new int[lines.Length]; // cria um array com o tamanho do arquivo
+                SortedSet<int> setOrdenado = new SortedSet<int>(); // cria uma collection
 
-                for (var i = 0; i < lines.Length; i++) // percorre o arquivo
+                for (int i = 0; i < lines.Length; i++) // percorre o arquivo
                 {
                     arrayDesordenado[i] = int.Parse(lines[i]); // adiciona o valor na posição do array
                     setOrdenado.Add(arrayDesordenado[i]); // adiciona o valor na collection
                 }
 
-                Array.Sort(arrayDesordenado); // ordena o array
+                arrayDesordenado = BubbleSort(arrayDesordenado); // ordena o array com Bubble Sort
 
                 Console.WriteLine("Valores ordenados no Array:"); //  imprime os valores
                 foreach (var value in arrayDesordenado) 
@@ -47,6 +47,25 @@ namespace Prova1
             }
 
             Console.ReadKey(); 
+        }
+
+        static int[] BubbleSort(int[] array) // método de ordenação Bubble Sort
+        {
+            int n = array.Length; 
+            for (int i = 0; i < n - 1; i++) 
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    if (array[j] > array[j + 1])
+                    {
+                        // troca os elementos
+                        int temp = array[j];
+                        array[j] = array[j + 1];
+                        array[j + 1] = temp;
+                    }
+                }
+            }
+            return array;
         }
     }
 }
